@@ -1,0 +1,55 @@
+:root {
+  --bodybackground: #000000;
+}
+
+body {
+  background-color: var(--bodybackground);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.login-link {
+  color: rgb(102, 139, 173);
+  cursor: pointer;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.FirstStoreCreationPage-card {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.24) !important;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(6.6px) !important;
+}
+
+.file-upload-label:hover {
+  background-color: #405294 !important;
+}
+
+.fui-FluentProvider{
+  background-color: var(--bodybackground) !important;
+}
+.button-danager{
+  background-color: #a4161a !important;
+}
+
+
+.button-danager:hover{
+  background-color: #ef233c !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .FirstStoreCreationPage-card {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+
+  }
+}
